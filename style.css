@@ -1,0 +1,50 @@
+body {
+    margin: 80px 10px ;
+    padding: 10px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #09dcc4;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #05a7f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  input[type="file"] {
+    display: block;
+    margin: 20px auto;
+  }
+
+  #convertBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #convertBtn:hover {
+    background-color: #45a049;
+  }
+
+  #output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #faf8fa;
+    border: 1px solid #2df705;
+  }
